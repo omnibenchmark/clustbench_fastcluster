@@ -22,7 +22,7 @@ references:
     doi: "10.1016/j.softx.2022.101270"
     url: "https://clustering-benchmarks.gagolewski.com"
 
-  - type: dataset
+  - type: data
     authors:
       - family-names: "Gagolewski"
         given-names: "Marek"
@@ -45,3 +45,31 @@ references:
     pages: "8-23"
     year: 2016
     doi: "10.1016/j.ins.2016.05.003"
+
+  # The libraries this module calls, with the versions its environment pins
+  # where a package rather than a paper is cited.
+
+  - type: article
+    authors:
+      - {family-names: "Müllner", given-names: "Daniel"}
+    title: "fastcluster: Fast hierarchical, agglomerative clustering routines for R and Python"
+    journal: "Journal of Statistical Software"
+    volume: "53"
+    issue: "9"
+    year: 2013
+    doi: "10.18637/jss.v053.i09"
+
+  - type: article
+    authors:
+      - {family-names: "Virtanen", given-names: "Pauli"}
+      - {family-names: "Gommers", given-names: "Ralf"}
+      - {family-names: "Oliphant", given-names: "Travis E."}
+      - name: "SciPy 1.0 Contributors"
+    title: "SciPy 1.0: fundamental algorithms for scientific computing in Python"
+    journal: "Nature Methods"
+    volume: "17"
+    issue: "3"
+    start: "261"
+    end: "272"
+    year: 2020
+    doi: "10.1038/s41592-019-0686-2"
